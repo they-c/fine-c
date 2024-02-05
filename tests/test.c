@@ -1,6 +1,6 @@
-int printf(char *c, ...);
+int printf(char *, ...);
 
 int main(void)
 {
-	printf("hello, world\n");
+	printf("hello, world %f\n", 0.3);
 }

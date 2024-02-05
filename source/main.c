@@ -1,7 +1,10 @@
-#include <stdio.h>
 #include "lexer.h"
+#include <stdio.h>
 
 int main(void)
 {
-	printf("hello, world\n");
+	char *a;
+	while ((a = next_token())) {
+		puts(a);
+	}
 }
